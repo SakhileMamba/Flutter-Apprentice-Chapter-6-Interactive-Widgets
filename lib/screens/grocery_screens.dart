@@ -1,5 +1,3 @@
-import 'dart:js';
-
 import 'package:flutter/material.dart';
 import 'empty_grocery_screen.dart';
 import 'package:provider/provider.dart';
