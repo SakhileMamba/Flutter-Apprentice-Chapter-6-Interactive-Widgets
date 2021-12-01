@@ -63,9 +63,34 @@ class _GroceryItemScreenState extends State<GroceryItemScreen> {
 
   @override
   Widget build(BuildContext context) {
-    //TODO 12: Add groceryItemScreen scaffold
-    return Container(
-      color: Colors.orange,
+    return Scaffold(
+      appBar: AppBar(
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.check),
+          ),
+        ],
+        elevation: 0.0,
+        title: Text(
+          'GroceryItem',
+          style: GoogleFonts.lato(fontWeight: FontWeight.w600),
+        ),
+      ),
+      body: Container(
+        padding: const EdgeInsets.all(16),
+        child: ListView(
+          children: [
+            // TODO 13: Add name TextField
+            // TODO 14: Add Importance selection
+            // TODO 15: Add date picker
+            // TODO 16: Add time picker
+            // TODO 17: Add color picker
+            // TODO 18: Add slider
+            // TODO: 19: Add Grocery Tile],
+          ],
+        ),
+      ),
     );
   }
 
