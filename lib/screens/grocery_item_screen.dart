@@ -30,7 +30,9 @@ class _GroceryItemScreenState extends State<GroceryItemScreen> {
   @override
   Widget build(BuildContext context) {
     //TODO 12: Add groceryItemScreen scaffold
-    return Container();
+    return Container(
+      color: Colors.orange,
+    );
   }
 
   //TODO: Add buildNameField()
