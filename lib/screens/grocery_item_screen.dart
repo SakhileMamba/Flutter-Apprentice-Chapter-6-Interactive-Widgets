@@ -57,6 +57,7 @@ class _GroceryItemScreenState extends State<GroceryItemScreen> {
     });
   }
 
+  @override
   void dispose() {
     _nameController.dispose();
     super.dispose();
