@@ -83,7 +83,7 @@ class _GroceryItemScreenState extends State<GroceryItemScreen> {
           children: [
             buildNameField(),
             buildImportanceField(),
-            buildDateField(),
+            buildDateField(context),
             // TODO 16: Add time picker
             // TODO 17: Add color picker
             // TODO 18: Add slider
@@ -218,11 +218,9 @@ class _GroceryItemScreenState extends State<GroceryItemScreen> {
     );
   }
 
-  /*Widget buildTimeField() {
-    return Column(
-
-    );
-  }*/
+  Widget buildTimeField() {
+    return Column();
+  }
 
   //TODO: Add buildColorField()
   //TODO: Add buildQuantityField()
